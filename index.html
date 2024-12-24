@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERRY CHRISTMAS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body >
+    <audio id="audio" src="./chrismast.mp3"></audio>
+
+    <div id="as" class="christmas-message">Merry Christmas</div>
+    <div class="tree-container">
+        <img src="https://github.com/Panbap/datapanbap/blob/main/image/big_tree.png?raw=true" alt="Cây thông" class="tree-icon">
+    </div>
+
+    <div class="container">
+        <button id="showButton">
+            PENCET GANILA
+        </button>
+    </div>
+
+    <div id="guideInfo" class="hidden">
+        <button id="closeButton" class="close-btn">X</button>
+        <div id="ax" class="card">
+            <div class="imgBox">
+                <div class="bark"></div>
+                <img
+                    src="https://github.com/Panbap/datapanbap/blob/main/image/mery.png?raw=true">
+            </div>
+            <div class="details">
+                <h4 class="color margin">MERRY CHRISTMAS</h4>
+                <p>Selamat Natal Ganila</p>
+                <p>Semoga Liburan Natal Ini</p>
+                <p>Menyenangkan Bagimu</p>
+                <p>Terima Kasih atas Kebaikanmu</p>
+                <p>Selama Ini</p>
+                <p>Semoga Kita Memiliki Lebih Banyak</p>
+                <p>Kenangan Indah di Tahun Mendatang</p>
+                <p>dan Satu Hal Lagi</p>
+                <p>Jangan Terlalu Cuek</p>
+                <p>Tanya Sekali-sekali Keadaanku</p>
+                <p>Jangan Terus Aku Yang Nanya</p>
+                <p>Aku Pengen Loh Sekali-sekali</p>
+                <p>Di Chat Cewek Cantik</p>
+                <p>Ditanya Kabarku</p>
+                <p>Udah makan, apa belum</p>
+                <p>Itu Saja. Sekali Lagi</p>
+                <p>Selamat Natal Ganila Cantik😘😘</p>
+                <p class="text-right">From :</p>
+                <p class="text-right">♥Lois Denata Perangin-angin♥</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+       document.body.addEventListener("click", function() {
+            var audio = document.getElementById("audio");
+            audio.loop = true;
+            audio.play();
+        });
+    </script>
+
+</body>
+
+</html>
